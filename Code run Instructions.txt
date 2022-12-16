@@ -1,0 +1,10 @@
+1. ipynb files for each model is avaliable in their respective folder
+2. Inorder to run BERT and RoBERTa models in google colab, upload the datasets in colab and simplt click run all.
+3. Set data_exists = False in the initial code cell. These two models take 40mns on GPU. You can check the predcitions by 
+using the saved model model.h5
+
+4. For PubMED and Bio_Clinical upload their respective folders in your google drive, change the paths in code to your drive location.
+5. These models take 120mns with gpu to train. Make sure to upload the 5 datasets(train, test, patient notes, sample_submissions, features)
+into the colab before running.
+6. Saved weights are avaliable in the folder which can be used to predict on the test data.
+7. Datasets are uploaded on both folders and in drive for your convinience
