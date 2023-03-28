@@ -23,5 +23,13 @@ Studied 4 different variations of BERT as follows:
 * train.csv - Feature annotations for 1000 patient notes, a 100 for every ten instances.
 After Data Preprocessing we can see the feature text, patient history, annotations and the location of the annotations.
 
+Performance Evaluations:
+
+* cross validation techniques, Confusion matrix and F1 score. 
+
+Ablation study:
+
+* Improvements with F-1 scores and model loss of BERT compared to a simple Neural Network base model.
+
 
 
